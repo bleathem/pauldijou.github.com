@@ -1,0 +1,202 @@
+/* line 1 */
+fieldset {
+  margin-top: 10px;
+}
+
+/* line 5 */
+legend {
+  margin-bottom: 10px;
+}
+
+/* line 9 */
+.well > ul.nav {
+  padding: 0px;
+}
+
+/* line 13 */
+dl.dl-horizontal dt h6 {
+  position: relative;
+  top: 1px;
+}
+
+/* line 19 */
+.page #container {
+  margin-top: 20px;
+  overflow: hidden;
+}
+/* line 24 */
+.page .no-footer {
+  padding-bottom: 50px;
+}
+
+/* line 30 */
+#container.index .well {
+  position: relative;
+  top: 1500px;
+}
+
+/* line 37 */
+#levels .task .progress {
+  background-color: white;
+  background-image: none;
+  margin-top: 5px;
+}
+
+/* line 44 */
+.btn-wrapper {
+  position: relative;
+  left: -50%;
+  float: right;
+}
+/* line 49 */
+.btn-wrapper .btn-group {
+  position: relative;
+  left: 50%;
+}
+
+@media (min-width: 980px) {
+  /* line 59 */
+  .visible-phone {
+    display: none !important;
+  }
+
+  /* line 60 */
+  .visible-tablet {
+    display: none !important;
+  }
+
+  /* line 61 */
+  .visible-desktop {
+    display: inherit;
+  }
+
+  /* line 62 */
+  .hidden-phone {
+    display: inherit;
+  }
+
+  /* line 63 */
+  .hidden-tablet {
+    display: inherit;
+  }
+
+  /* line 64 */
+  .hidden-desktop {
+    display: none !important;
+  }
+
+  /* line 66 */
+  #container {
+    margin-top: 60px;
+  }
+}
+@media (max-width:979px) {
+  /* line 72 */
+  .navbar-fixed-top {
+    margin-bottom: 0px;
+  }
+
+  /* line 76 */
+  .title {
+    margin-top: 0px;
+    width: 100%;
+    margin-left: -20px;
+  }
+
+  /* line 82 */
+  #container {
+    margin-top: 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  /* line 89 */
+  .visible-phone {
+    display: none !important;
+  }
+
+  /* line 90 */
+  .visible-tablet {
+    display: inherit;
+  }
+
+  /* line 91 */
+  .visible-desktop {
+    display: none !important;
+  }
+
+  /* line 92 */
+  .hidden-phone {
+    display: inherit;
+  }
+
+  /* line 93 */
+  .hidden-tablet {
+    display: none !important;
+  }
+
+  /* line 94 */
+  .hidden-desktop {
+    display: inherit;
+  }
+
+  /* line 96 */
+  #container.index .well a.btn {
+    margin-bottom: 10px;
+  }
+
+  /* line 100 */
+  #container.index .well a.btn:last-child {
+    margin-bottom: 0px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 108 */
+  .visible-tablet {
+    display: none !important;
+  }
+
+  /* line 109 */
+  .visible-desktop {
+    display: none !important;
+  }
+
+  /* line 110 */
+  .hidden-phone {
+    display: none !important;
+  }
+
+  /* line 111 */
+  .hidden-tablet {
+    display: inherit;
+  }
+
+  /* line 112 */
+  .hidden-desktop {
+    display: inherit;
+  }
+}
+@media (max-width: 767px) {
+  /* line 116 */
+  .dl-horizontal dt {
+    float: none;
+    text-align: left;
+    width: auto;
+  }
+
+  /* line 122 */
+  .dl-horizontal dd {
+    margin-left: 9px;
+  }
+
+  /* line 126 */
+  .title h1 {
+    font-size: 50px;
+    line-height: 55px;
+  }
+}
+@media (max-width:1490px) {
+  /* line 133 */
+  .github-fork {
+    display: none !important;
+  }
+}
